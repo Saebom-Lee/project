@@ -1,0 +1,55 @@
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5rem;
+
+}
+
+.menu-container {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+    margin: 0.5rem 0;
+}
+
+th,
+td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    overflow: hidden;
+}
+
+/* .number > * {
+    border: 1px solid #444444;
+  } */
+
+.navy {
+    background-color: navy;
+    color: white;
+    outline: none;
+    border: 0 solid black
+}
+
+.dgray {
+    background-color: gray;
+    color: white;
+    outline: none;
+    border: 0 solid black
+}

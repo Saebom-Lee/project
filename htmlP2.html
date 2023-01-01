@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="htmlP2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="accordion-box">
+        <ul class="list">
+            <li>
+                <hr class="line">
+                <p class="question">
+                    <span class="q">Q</span>타이틀입니다.</p>
+                <div class="answer">
+                    <span class="a">A</span>안녕하십니까. 현행 개인정보취급방침을 아래와 같이 개정하여 공지합니다. 회원 여러분께서는 변경 내용을 꼭 확인하시고 서비스 이용에 차질이 없으시기
+                    바랍니다.</div>
+                <hr class="line">
+            </li>
+            <li>
+                <p class="question">
+                    <span class="q">Q</span>타이틀입니다.타이틀입니다.타이틀입니다.타이틀입니다.타이틀입니다.</p>
+                <div class="answer">
+                    <span class="a">A</span>안녕하십니까. 현행 개인정보취급방침을 아래와 같이 개정하여 공지합니다. 회원 여러분께서는 변경 내용을 꼭 확인하시고 서비스 이용에 차질이 없으시기
+                    바랍니다.</div>
+                <hr class="line">
+            </li>
+        </ul>
+    </div>
+    <script>
+
+        $("p.question").on('click',function(){
+  $(".answer").slideUp(100);
+  $(this).next(".answer").slideDown(100);
+});
+    </script>
+</body>
+
+</html>

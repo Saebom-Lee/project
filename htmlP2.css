@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+}
+
+.accordion-box {
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+p.question {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.answer {
+    padding: 0.5rem;
+    display: none;
+    background-color: antiquewhite;
+}
+
+.line {
+    width: 50rem;
+    border: 0;
+    border-top: 0.01rem solid #bbbbbb;
+}
+
+.q {
+    /* width: 5rem;
+    height: 5rem; */
+    border-radius: 5rem;
+    background-color: mediumturquoise;
+    margin-right: 0.5rem;
+}
+
+.a {
+    /* width: 5rem;
+    height: 5rem; */
+    border-radius: 5rem;
+    background-color: orange;
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .accordion-box {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .accordion-box {
+        width: 70%;
+    }
+}
